@@ -47,4 +47,10 @@ $(document).ready(function () {
       $('.header__menu').toggleClass('open-menu');
     });
   });
+  $(document).ready(function () {
+    $('.menu__burger').click(function (event) {
+      $('.menu__burger, .header__list').toggleClass('active');
+      $('body').toggleClass('fixed-page');
+    });
+  });
 });
