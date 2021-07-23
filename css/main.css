@@ -857,7 +857,11 @@ select{
     .content__images-item:first-child{
       margin-left:0; }
   .content__info{
-    margin-top:6.2em; } }
+    margin-top:6.2em; } 
+  .content__text{
+    font-size: 15px;
+    line-height: 22px;
+    }}
 
 .slider__inner{
   margin-top:15.6em;
